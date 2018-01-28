@@ -7,9 +7,9 @@ app.use(bodyParser.json());
 
 var port = process.env.PORT || 3000;  
 var router = express.Router();  
-router.get('/', function(req, res) {
+router.get('/headers', function(req, res) {
     res.json({ 
-        message: 'hooray! welcome to our api!' , 
+        message: 'Backend API in NodeJS with Express!' , 
         headers: req.headers
     });   
 });
@@ -17,4 +17,4 @@ router.get('/', function(req, res) {
 app.use('/api', router);
 
 app.listen(port);
-console.log('Magic happens on port ' + port);
+console.log('API running on port ' + port);
