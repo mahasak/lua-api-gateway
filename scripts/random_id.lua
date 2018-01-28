@@ -1,3 +1,4 @@
+-- from gist : https://gist.github.com/haggen/2fd643ea9a261fea2094
 local charset = {}
 
 -- qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890
